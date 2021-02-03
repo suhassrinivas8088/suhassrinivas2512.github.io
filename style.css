@@ -1,0 +1,44 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+/*  //for background image scaling*/
+    background: url(facebook_cover_photo_2.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+h1{
+	font-size: 3rem;
+	color: black;
+}
+
+.btn{
+	font-weight: 700;
+	border-radius: 400px;
+}
+
+.btn-xl{
+	padding: 1rem 2rem;
+}
+
+.btn-danger{
+	background-color: #734C8F;
+	border-color: black ;
+}
+.btn-danger:hover{
+	background-color: pink;
+	border-width: 5px;
+	border-color: white;
+}
+hr {
+	border-color: red ;
+	border-width: 5px;
+	max-width: 25rem;
+}
+.buffer{
+	height: 35rem;
+}
